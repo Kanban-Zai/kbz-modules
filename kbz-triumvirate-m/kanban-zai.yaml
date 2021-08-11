@@ -1,0 +1,13 @@
+Kanban-Zai:
+  name: triumvirate
+  version: 1
+  url: https://github.com/Kanban-Zai/kbz-triumvirate-m.git
+  settings:
+    - quality: triumvirate,performance,resilience
+    - prioritization: weekly, daily, 2-weekly
+    - feedback: Data driven analytics preferred, but anecdotal evidence must not be ignored|READONLY
+  norms:
+    - feedback
+  values:
+    - value-to-customers
+

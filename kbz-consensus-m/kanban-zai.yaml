@@ -1,0 +1,19 @@
+Kanban-Zai:
+  version: 1
+  name: default consensus module
+  settings:
+    - quorum: 2|MIN:2
+    - harmony: positive,negative
+    - deviation: monthly,bimonthly,2monthly,quarterly
+    - dissent: censoring the dissenting opinion is not allowed|READONLY
+
+  norms:
+    - consensus|https://github.com/Kanban-Zai/kanban-zai-core.git
+    - individualisim
+    - dissent
+    - pan
+    - guests
+    - vigilance
+  values:
+    - unity
+  anathema:

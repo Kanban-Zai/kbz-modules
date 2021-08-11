@@ -1,0 +1,24 @@
+Kanban-Zai:
+  version: 1
+  name: kbz-increment-m
+  context: default
+  settings:
+    - cadence: undefined
+    - speed-limit: 1
+    - deadlines: not-allowed
+  claims:
+    - card|./card.md
+  norms:
+    - slack
+    - backporting
+    - promote
+    - demote
+  values:
+    - objectivity
+    - predictability
+    - trust
+  method:
+    - open
+    - ready
+    - closed
+

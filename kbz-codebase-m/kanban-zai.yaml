@@ -1,0 +1,10 @@
+Kanban-Zai:
+  version: 1
+  settings:
+    - tdd: false,true
+    - tech-debt: amortize,reduce,prevent
+    - maintainability: triumvirate, none, url
+  norms:
+    - backporting
+  values:
+    - value to market

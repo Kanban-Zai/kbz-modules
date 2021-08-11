@@ -1,0 +1,17 @@
+Kanban-Zai:
+  name: kbz-continuity-m
+  version: 1
+  url: https://github.com/Kanban-Zai/kbz-continuity-m.git
+  settings:
+    documentation: conservative|READONLY
+    transparency: public|READONLY
+  norms:
+    - gossip
+    - brevity
+    - relevance
+    - card-development
+    - sowing
+    - harvest
+  hints:
+    - "Kanban-Zai"
+
