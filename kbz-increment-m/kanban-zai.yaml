@@ -6,6 +6,7 @@ Kanban-Zai:
     - cadence: undefined
     - speed-limit: 1
     - deadlines: not-allowed
+    - complexity: L, M, S
   claims:
     - card|./card.md
   norms:
@@ -13,11 +14,12 @@ Kanban-Zai:
     - backporting
     - promote
     - demote
+    - method
   values:
     - objectivity
     - predictability
     - trust
-  method:
+  gates:
     - open
     - ready
     - closed

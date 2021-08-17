@@ -18,10 +18,33 @@ cannot acquire before lower numbered gates.
 * The final state is always "closed".
 * Changing the state of a gate without all conditions acquiring is a Journalable action.
 
-# Rational Outcomes.
+# Cards
 
-Cards must have rational outcomes.  These can be one or more Rational Outcome Models which are assigned to a gate or 
-ad-hoc outcomes may also be used.
+## Title
+
+Just a few words
+
+## Value Proposition
+
+An abstract description constrained to the title.  The title is the test of the quality of your abstract.  If the title
+and abstract point meaningfully in different directions, something is wrong.
+
+HINT: Specify what you do want and not what you don't want.
+
+## Optional Information
+
+Raise questions, clarify points of interest and provide more detail.  Constrained to the value proposition.  The
+test is then the same.  If the optional information and value prop dont make sense together then some must change.
+
+## Rational Outcomes.
+
+Rational Outcomes are a core Kanban-Zai concept.  The are objective models of an end result that everybody can agree on.
+Cards can inherit from the outcomes list in the Kanban-Zai file or then can define thier own.  Or both.  But again the
+test is the same.  Does the outcome make sense given the title, VP and optional information.
+
+## Complexity Label
+
+Complexity is highly abstracted in this increment model.  The possible values are Large, Medium, Small.
 
 # Settings
 
@@ -54,12 +77,12 @@ Unfinished work on a card in a sprint should be split out to one or more cards a
 
 #### SLACK
 
-What is slack? In common usage it probably has a negative connotation, as in “he has been slacking off”. But in 
-planning for successful sprints that yield consistent, high-quality results, it is essential.
+What is slack? In common usage it has a negative connotation, as in “he has been slacking off”. But in 
+planning for successful, consistent, high-quality results, it is essential.
 
 #### PROMOTE
 
-Team members must continuously attempt to promote cards to their next state by trying to make gate conditions acqurie.
+Team members must continuously attempt to promote cards to their next state by trying to make gate conditions acquire.
 
 ### DEMOTE
 
