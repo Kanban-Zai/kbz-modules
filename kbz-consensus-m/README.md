@@ -1,6 +1,7 @@
 #kbz-consensus-m
 
-Kanban-Zai is an ethical consensus algorithm.
+Kanban-Zai is an ethical consensus algorithm based around the idea that without dissent it is hard to trust an outcome.
+Therefore full consensus is not the ideal outcome of a consensus round.
 
 
 # SETTINGS

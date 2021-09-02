@@ -1,0 +1,10 @@
+Kanban-Zai:
+  version: 1
+  name: kbz-example-m
+  context: default
+  settings:
+    - somesetting: true
+  norms:
+    - somebehaviour
+  custom:
+    - anything

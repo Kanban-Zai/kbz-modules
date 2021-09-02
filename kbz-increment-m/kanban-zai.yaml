@@ -7,18 +7,12 @@ Kanban-Zai:
     - speed-limit: 1
     - deadlines: not-allowed
     - complexity: L, M, S
-  claims:
-    - card|./card.md
   norms:
     - slack
     - backporting
     - promote
     - demote
     - method
-  values:
-    - objectivity
-    - predictability
-    - trust
   gates:
     - open
     - ready
